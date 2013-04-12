@@ -1,0 +1,38 @@
+.leftMenu{
+	width: 200px;
+	height: auto;
+	background-color: #6DA2B5;
+	float: left;
+}
+
+.leftMenu ul{
+	margin-top: 20px;
+	padding-left: 0;
+}
+
+.leftMenu ul li{
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.leftMenu ul li a{
+	width: 100%;
+	color: white;
+	font-size: 22px;
+}
+
+.leftMenu ul li a:hover{
+	margin-top: 20px;
+	color: #ECF0F1;
+	
+}
+
+.rightContent{
+	width: 770px;
+	padding-left: 30px;
+	padding-top: 20px;
+	height: auto;
+	min-height: 300px;
+	float: left;
+}

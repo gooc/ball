@@ -1,0 +1,115 @@
+/* I code this. I'm Li Shilong. Visit my website: shilong.li */
+
+/* html mark style */
+body{
+	margin: 0 auto; padding: 0; width: 1000px; background-color: #ECF0F1;
+}
+li{
+	list-style: none;
+}
+
+h1{
+	font-size: 18px;
+}
+
+h2{
+	font-size: 14px;
+}
+
+h3{
+	font-size: 12px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+h5{
+	font-size: 18px;
+}
+
+h6{
+	font-size: 18px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+/*	text-decoration: underline;*/
+	text-decoration: none;
+}
+
+
+/* base div frame style */
+
+/*top*/
+.topFrame {
+	height: 200px;
+	width: 100%;
+	background-color: white;
+}
+
+.lineInTopFrame {
+	height: 10px;
+	width: 100%;
+	background-color: #4CA859;
+}
+
+.bannerImage {
+	height: 140px;
+	width: 100%;
+	background-color: #aaaaaa;
+	/*background-image: url(images/banner.png);*/
+	
+}
+
+/*menu*/
+.menu {
+	height: 50px;
+	width: 100%;
+	background-color: #308AB7;
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li a {
+	font-size: 30px;
+	height: 50px;
+	line-height: 50px;
+	color: #ECF0F1;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.menu ul li a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+/*content frame*/
+.contentFrame{
+	width: 100%;
+	height: auto;
+}
+
+/*footer frame*/
+.footerFrame {
+	width: 100%;
+	margin-top: 40px;
+}
+
+.footerFrame p{
+	text-align: center;
+}
